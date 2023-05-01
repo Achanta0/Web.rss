@@ -1,0 +1,128 @@
+.usuario{
+  margin-left: 15;
+  width: 20%;
+}
+.contraseña{
+  margin-left: 70;
+  width: 20%;
+}
+.botones{
+  margin-left: 230;
+}
+html, body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+header {
+    height: 100px;
+    background-color: #76a37c;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer {
+  margin-top: auto;
+  height: 75px;
+  background-color: #76a37c;
+  color: #ffffff;
+  text-align: center;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+}
+
+nav {
+    height: 50px;
+    background-color: #dde079;
+}
+
+.menu {
+    list-style-type: none;
+
+}
+
+.menu li {
+    padding: 10px;
+    margin: 5px;
+    display: inline;
+
+}
+
+.menu li:hover {
+    background-color: #e386dd;
+}
+
+.currentPage {
+    background-color: #0e949c;
+    border-radius: 20%;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.content .aside-content {
+    flex: 15%;
+    background-color: #560e82;
+    color: #ffffff;
+}
+
+.content .aside-content .aside-section{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content .aside-content .aside-title {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 35px;
+    color: #ffffff;
+    background-color: #983b4f;
+}
+
+.content .page-content {
+    flex: 85%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #983b4f;
+}
+
+section {
+    text-align: justify;
+}
+.centrado{
+  text-align: center;
+}
+.margin {
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.derecha {
+  text-align: right;
+  margin-right: 10px;
+  font-style: italic;
+  color: #ff0000;
+  font-weight: bold;
+
+}
+.boton {
+  background-color: #0e949c;
+
+}
+.aqui{
+  background-color: red;
+  border-radius: 20%;
+
+}

@@ -1,0 +1,87 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+  <header>
+      <h1>Registro de cuenta</h1>
+  </header>
+  <nav>
+      <ul class="menu">
+          <a href="index.html"><li class="currentPage">Principal</li></a>
+          <a href="html/home.html"><li class="currentPage">Contextual</li></a>
+          <a href="html/about.html"><li class="currentPage">Presentacion</li></a>
+          <li class="aqui">Registrarse</li>
+          <a href="login.html"><li class="currentPage">Iniciar sesion</li></a>
+      </ul>
+  </nav>
+  <div class="content">
+    <aside class="aside-content">
+        <h5 class="aside-title">Registro de cuenta</h5>
+        <section class="aside-section">
+            <h5>Aqui crearas una cuenta.</h5>
+              <br>
+            <h5>En caso de ya tener cuenta hecha todavia, dele click a este boton para iniciar sesion.</h5>
+            <center><a href="login.html" target="_blank"><input type="submit" class="boton" value="Iniciar sesion"></a>
+              <br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br>
+
+
+          </section>
+      </aside>
+
+        <article class="page-content">
+            <section>
+<form action="/action_page.php" method="post">
+  <fieldset>
+    <legend>Datos personales</legend>
+        <br>
+  Nombre<input class="nombre" type="text" name="firstname" placeholder="Escribe tu nombre aqui:" required>
+        <br><br>
+    Primer apellido<input class="apellido1" type="text" name="lastname" placeholder="Escribe tu primer apellido" required>
+        <br><br>
+    Segundo apellido<input class="apellido2" type="text" name="lastname" placeholder="Escribe tu segundo apellido" required>
+        <br><br>
+    Telefono<input class="telefono" type="number" name="telefono" placeholder="Escribe tu telefono">
+        <br><br>
+    Año de nacimineto<input class="año" type="date" required>
+        <br><br>
+    Sexo<select class="sexo" name="Sexo">
+      <option value="masculino">Masculino</option>
+      <option value="femenino">Femenino</option>
+      <option value="otro">Otros</option>
+    </select>
+        <br><br>
+    Pequeña biografia<br><textarea class="biografia" name="bio" rows="5" cols="90"></textarea>
+        <br><br>
+      </fieldset>
+            <br>
+      <fieldset>
+        <legend>Datos de la cuenta</legend>
+        <br>
+      Nombre del usuario<input class="usuario" type="text" name="nombreusuario" placeholder="Escribe tu nombre de usuario">
+        <br><br>
+      Contraseña<input class="contraseña" type="password" name="contraseña" placeholder="Escribe tu contraseña">
+          <br><br>
+        Repite Contraseña<input class="contraseña2" type="password" name="contraseña2" placeholder="Repite tu contraseña">
+          <br><br>
+        Correo electronico<input class="correo" type="email" name="email" placeholder="Escribe tu correo electronico">
+          <br><br>
+        Imagen de perfil<input class="archivo" type="file" value="Examina" name="imagen">
+      </fieldset>
+  </fieldset>
+        <br>
+  <br>
+        <input class="cancelar" type="reset" value="Cancelar">
+
+        <input type="submit" value="Registrarme"><br><br><br><br><br>
+</form>
+</section>
+
+</article>
+</div>
+  <footer>
+    <h3>Pie de pagina</h3>
+  </footer>
+</body>
+</html>
